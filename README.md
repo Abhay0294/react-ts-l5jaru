@@ -1,3 +1,5 @@
-# react-ts-l5jaru
+# ReactBasedViews
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-ts-l5jaru)
+This repository deals with implmenting different react based views.
+Following components are implemented:
+1.Tabbed View
