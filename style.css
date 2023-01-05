@@ -10,3 +10,76 @@ p {
 .dark {
   background-color: pink;
 }
+
+.tabbed-view {
+  display: flex;
+  border: 1px solid black;
+  width: 280px;
+  height: 200px;
+  background-color: aliceblue;
+  padding: 5px;
+  position: relative;
+  top: 150px;
+  left: 500px;
+}
+
+.tabs li {
+  width: 100px;
+  height: fit-content;
+  cursor: pointer;
+  list-style: none;
+  border: 1px solid black;
+  margin-bottom: 4px;
+  border-radius: 5px;
+}
+
+.tabs ul {
+  padding: 0px;
+}
+
+.view {
+  position: relative;
+  left: 4px;
+  top: 16px;
+  border: 1px solid black;
+  height: 180px;
+  width: 170px;
+  border-radius: 5px;
+  background-color: floralwhite;
+}
+
+.view-type {
+  position: relative;
+  top: 35%;
+  left: 5%;
+}
+
+input {
+  width: 85%;
+}
+
+#text {
+  font-size: x-small;
+  font-family: monospace;
+  border-right: 3px solid;
+  width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: text 2s steps(28), effect 0.5s steps(1) infinite alternate;
+}
+
+#effect {
+  text-align: center;
+}
+
+@keyframes text {
+  0% {
+    width: 0;
+  }
+}
+
+@keyframes effect {
+  50% {
+    border-color: #0000;
+  }
+}
