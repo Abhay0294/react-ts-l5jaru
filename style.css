@@ -89,9 +89,8 @@ input {
 }
 
 .parent-div {
-  top: 30%;
-  left: 45%;
-  width: 100px;
+  top: 20%;
+  width: fit-content;
   padding: 5px;
   border-radius: 3px;
   height: fit-content;
