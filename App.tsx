@@ -2,7 +2,7 @@ import * as React from 'react';
 import { CloneElement } from './components/element-clone/Clone';
 import { TabbedViewWidget } from './components/tabbed-view/Tabbed-View-Widget';
 import './style.css';
-import { SampleButton } from './components/buttons/sampleButton';
+import { SampleButton } from './components/buttons/SampleButton';
 
 export default function App() {
   const Customprops = {
