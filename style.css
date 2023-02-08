@@ -143,3 +143,10 @@ a {
 .my-button:focus {
   border-color: red;
 }
+
+.type-effect {
+  border: 2px solid red;
+  height: 50px;
+  width: 1000px;
+  font-size: large;
+}
